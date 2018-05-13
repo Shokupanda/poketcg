@@ -954,9 +954,9 @@ DoubleColorlessEnergyCardGfx:: ; c5230 (31:5230)
 	INCBIN "gfx/cards/doublecolorlessenergy.8x6.2bpp"
 	INCBIN "gfx/cards/doublecolorlessenergy.pal"
 
-BulbasaurCardGfx:: ; c5538 (31:5538)
-	INCBIN "gfx/cards/bulbasaur.8x6.2bpp"
-	INCBIN "gfx/cards/bulbasaur.pal"
+ChikoritaCardGfx:: ; c5538 (31:5538)
+	INCBIN "gfx/cards/chikorita.8x6.2bpp"
+	INCBIN "gfx/cards/chikorita.pal"
 
 IvysaurCardGfx:: ; c5840 (31:5840)
 	INCBIN "gfx/cards/ivysaur.8x6.2bpp"

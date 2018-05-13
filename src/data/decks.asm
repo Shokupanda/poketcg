@@ -8,8 +8,8 @@ DeckPointers: ; 30000 (c:4000)
 	dw CharmanderExtraDeck
 	dw SquirtleAndFriendsDeck
 	dw SquirtleExtraDeck
-	dw BulbasaurAndFriendsDeck
-	dw BulbasaurExtraDeck
+	dw ChikoritaAndFriendsDeck
+	dw ChikoritaExtraDeck
 	dw LightningAndFireDeck
 	dw WaterAndFightingDeck
 	dw GrassAndPsychicDeck
@@ -89,7 +89,7 @@ UnnamedDeck: ; 30070 (c:4070)
 	db 4, EEVEE
 	db 4, TANGELA2
 	db 4, VENUSAUR1
-	db 4, BULBASAUR
+	db 4, CHIKORITA
 	db 4, IVYSAUR
 	db 4, POKEMON_BREEDER
 	db 0 ; end
@@ -283,7 +283,7 @@ UnnamedDeck2: ; 301e7 (c:41e7)
 	db 4, ODDISH
 	db 2, GLOOM
 	db 2, VILEPLUME
-	db 4, BULBASAUR
+	db 4, CHIKORITA
 	db 3, IVYSAUR
 	db 4, CHARMANDER
 	db 3, CHARMELEON
@@ -300,7 +300,7 @@ UnnamedDeck2: ; 301e7 (c:41e7)
 	db 4, FIRE_ENERGY
 	db 20, GRASS_ENERGY
 	db 4, KANGASKHAN
-	db 4, BULBASAUR
+	db 4, CHIKORITA
 	db 3, IVYSAUR
 	db 2, VENUSAUR2
 	db 4, CHARMANDER
@@ -356,7 +356,7 @@ UnnamedDeck2: ; 301e7 (c:41e7)
 	db 4, EEVEE
 	db 4, TANGELA2
 	db 4, VENUSAUR1
-	db 4, BULBASAUR
+	db 4, CHIKORITA
 	db 4, IVYSAUR
 	db 4, POKEMON_BREEDER
 	db 0 ; end
@@ -383,7 +383,7 @@ UnnamedDeck2: ; 301e7 (c:41e7)
 	db 4, JIGGLYPUFF3
 	db 4, WEEDLE
 	db 4, AERODACTYL
-	db 4, BULBASAUR
+	db 4, CHIKORITA
 	db 4, IVYSAUR
 	db 4, VENUSAUR2
 	db 0 ; end
@@ -641,7 +641,7 @@ CharmanderExtraDeck: ; 30465 (c:4465)
 	db 4, GRASS_ENERGY
 	db 4, WATER_ENERGY
 	db 3, PSYCHIC_ENERGY
-	db 1, BULBASAUR
+	db 1, CHIKORITA
 	db 1, IVYSAUR
 	db 2, NIDORANF
 	db 2, CATERPIE
@@ -719,11 +719,11 @@ SquirtleExtraDeck: ; 304cf (c:44cf)
 	db 0 ; end
 	tx SquirtleExtraDeckName
 
-BulbasaurAndFriendsDeck: ; 304fa (c:44fa)
+ChikoritaAndFriendsDeck: ; 304fa (c:44fa)
 	db 11, GRASS_ENERGY
 	db 3, FIRE_ENERGY
 	db 9, WATER_ENERGY
-	db 2, BULBASAUR
+	db 2, CHIKORITA
 	db 1, IVYSAUR
 	db 1, VENUSAUR2
 	db 2, CATERPIE
@@ -752,9 +752,9 @@ BulbasaurAndFriendsDeck: ; 304fa (c:44fa)
 	db 2, FULL_HEAL
 	db 1, REVIVE
 	db 0 ; end
-	tx BulbasaurAndFriendsDeckName
+	tx ChikoritaAndFriendsDeckName
 
-BulbasaurExtraDeck: ; 3053b (c:453b)
+ChikoritaExtraDeck: ; 3053b (c:453b)
 	db 4, LIGHTNING_ENERGY
 	db 4, PSYCHIC_ENERGY
 	db 3, FIGHTING_ENERGY
@@ -775,7 +775,7 @@ BulbasaurExtraDeck: ; 3053b (c:453b)
 	db 1, GUST_OF_WIND
 	db 30, GRASS_ENERGY
 	db 0 ; end
-	tx BulbasaurExtraDeckName
+	tx ChikoritaExtraDeckName
 
 LightningAndFireDeck: ; 30564 (c:4564)
 	db 10, FIRE_ENERGY
@@ -1032,7 +1032,7 @@ ZappingSelfdestructDeck: ; 30704 (c:4704)
 FlowerPowerDeck: ; 30725 (c:4725)
 	db 18, GRASS_ENERGY
 	db 4, PSYCHIC_ENERGY
-	db 4, BULBASAUR
+	db 4, CHIKORITA
 	db 3, IVYSAUR
 	db 2, VENUSAUR2
 	db 4, ODDISH
@@ -1513,7 +1513,7 @@ EtceteraDeck: ; 30a4b (c:4a4b)
 FlowerGardenDeck: ; 30a7e (c:4a7e)
 	db 24, GRASS_ENERGY
 	db 2, DOUBLE_COLORLESS_ENERGY
-	db 3, BULBASAUR
+	db 3, CHIKORITA
 	db 2, IVYSAUR
 	db 2, VENUSAUR2
 	db 3, ODDISH

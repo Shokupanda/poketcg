@@ -10,7 +10,7 @@ CardPointers: ; 30c5c (c:4c5c)
 	dw FightingEnergyCard
 	dw PsychicEnergyCard
 	dw DoubleColorlessEnergyCard
-	dw BulbasaurCard
+	dw ChikoritaCard
 	dw IvysaurCard
 	dw Venusaur1Card
 	dw Venusaur2Card
@@ -233,25 +233,25 @@ CardPointers: ; 30c5c (c:4c5c)
 	dw RecycleCard
 	dw $0000
 
-BulbasaurCard: ; 30e28 (c:4e28)
+ChikoritaCard: ; 30e28 (c:4e28)
 	db TYPE_PKMN_GRASS ; type
-	gfx BulbasaurCardGfx ; gfx
-	tx BulbasaurName ; name
+	gfx ChikoritaCardGfx ; gfx
+	tx ChikoritaName ; name
 	db CIRCLE ; rarity
 	db EVOLUTION | NONE ; sets
-	db BULBASAUR
-	db 40 ; hp
+	db CHIKORITA
+	db 50 ; hp
 	db BASIC ; stage
 	dw NONE ; pre-evo name
 
 	; move 1
 	energy GRASS, 2 ; energies
 	tx LeechSeedName ; name
-	tx BulbasaursLeechSeedDescription ; description
+	tx ChikoritaLeechSeedDescription ; description
 	dw NONE ; description (cont)
 	db 20 ; damage
 	db DAMAGE_NORMAL ; category
-	dw BulbasaurLeechSeedEffectCommands ; effect commands
+	dw ChikoritaLeechSeedEffectCommands ; effect commands
 	db NONE ; flags 1
 	db HEAL_USER ; flags 2
 	db NONE ; flags 3
@@ -275,13 +275,13 @@ BulbasaurCard: ; 30e28 (c:4e28)
 	db 1 ; retreat cost
 	db WR_FIRE ; weakness
 	db NONE ; resistance
-	tx BulbasaurKind ; kind
+	tx ChikoritaKind ; kind
 	db 1 ; Pokedex number
 	db 0
 	db 13 ; level
 	db 2, 4 ; length
 	dw 15 * 10 ; weight
-	tx BulbasaurDescription ; description
+	tx ChikoritaDescription ; description
 	db 16
 
 IvysaurCard: ; 30e69 (c:4e69)
@@ -293,7 +293,7 @@ IvysaurCard: ; 30e69 (c:4e69)
 	db IVYSAUR
 	db 60 ; hp
 	db STAGE1 ; stage
-	tx BulbasaurName ; pre-evo name
+	tx ChikoritaName ; pre-evo name
 
 	; move 1
 	energy GRASS, 1, COLORLESS, 2 ; energies
@@ -326,7 +326,7 @@ IvysaurCard: ; 30e69 (c:4e69)
 	db 1 ; retreat cost
 	db WR_FIRE ; weakness
 	db NONE ; resistance
-	tx BulbasaurKind ; kind
+	tx ChikoritaKind ; kind
 	db 2 ; Pokedex number
 	db 0
 	db 20 ; level
@@ -377,7 +377,7 @@ Venusaur1Card: ; 30eaa (c:4eaa)
 	db 2 ; retreat cost
 	db WR_FIRE ; weakness
 	db NONE ; resistance
-	tx BulbasaurKind ; kind
+	tx ChikoritaKind ; kind
 	db 3 ; Pokedex number
 	db 0
 	db 64 ; level
@@ -428,7 +428,7 @@ Venusaur2Card: ; 30eeb (c:4eeb)
 	db 2 ; retreat cost
 	db WR_FIRE ; weakness
 	db NONE ; resistance
-	tx BulbasaurKind ; kind
+	tx ChikoritaKind ; kind
 	db 3 ; Pokedex number
 	db 0
 	db 67 ; level

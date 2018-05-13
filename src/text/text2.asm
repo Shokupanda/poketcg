@@ -1294,12 +1294,12 @@ SquirtleExtraDeckName: ; 3b489 (e:7489)
 	text "Squirtle extra"
 	done
 
-BulbasaurAndFriendsDeckName: ; 3b499 (e:7499)
-	text "Bulbasaur & Friends"
+ChikoritaAndFriendsDeckName: ; 3b499 (e:7499)
+	text "Chikorita & Friends"
 	done
 
-BulbasaurExtraDeckName: ; 3b4ae (e:74ae)
-	text "Bulbasaur extra"
+ChikoritaExtraDeckName: ; 3b4ae (e:74ae)
+	text "Chikorita extra"
 	done
 
 FirstStrikeDeckName: ; 3b4bf (e:74bf)

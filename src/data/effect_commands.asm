@@ -236,7 +236,7 @@ IvysaurPoisonPowderEffectCommands:
 	dbw $09, $4b2f
 	db  $00
 
-BulbasaurLeechSeedEffectCommands:
+ChikoritaLeechSeedEffectCommands:
 	dbw $04, $4b37
 	db  $00
 

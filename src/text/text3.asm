@@ -338,7 +338,7 @@ Text02bb: ; 3c753 (f:4753)
 	done
 
 Text02bc: ; 3c767 (f:4767)
-	text "Bulbasaur & Friends"
+	text "Chikorita & Friends"
 	done
 
 Text02bd: ; 3c77c (f:477c)
@@ -581,7 +581,7 @@ Text02ed: ; 3d128 (f:5128)
 
 Text02ee: ; 3d16d (f:516d)
 	text "A Grass, Lightning and Psychic Deck:"
-	line "Bulbasaur, Pikachu and Abra"
+	line "Chikorita, Pikachu and Abra"
 	done
 
 Text02ef: ; 3d1af (f:51af)
@@ -834,7 +834,7 @@ Text0317: ; 3deb0 (f:5eb0)
 	line "hand into the play area. Basic "
 	line "Pokémon act as the base for "
 	line "Evolution Cards. Charmander, "
-	line "Squirtle and Bulbasaur are"
+	line "Squirtle and Chikorita are"
 	line "examples of Basic Pokémon."
 	done
 
@@ -1927,7 +1927,7 @@ Text03fb: ; 3f99d (f:799d)
 	done
 
 Text03fc: ; 3f9b6 (f:79b6)
-	text "BULBASAUR & Friends Deck"
+	text "CHIKORITA & Friends Deck"
 	done
 
 Text03fd: ; 3f9d0 (f:79d0)

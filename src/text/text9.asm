@@ -1237,29 +1237,28 @@ DoubleColorlessEnergyDescription: ; 57496 (15:7496)
 	line "Colorless Energy costs.)"
 	done
 
-BulbasaurName: ; 57552 (15:7552)
-	text "Bulbasaur"
+ChikoritaName: ; 57552 (15:7552)
+	text "Chikorita"
 	done
 
 LeechSeedName: ; 5755d (15:755d)
 	text "Leech Seed"
 	done
 
-BulbasaursLeechSeedDescription: ; 57569 (15:7569)
+ChikoritaLeechSeedDescription: ; 57569 (15:7569)
 	text "Unless all damage from this attack"
 	line "is prevented, you may remove 1"
 	line "damage counter from Bulbasaur."
 	done
 
-BulbasaurKind: ; 575cb (15:75cb)
-	text "Seed"
+ChikoritaKind: ; 575cb (15:75cb)
+	text "Leaf"
 	done
 
-BulbasaurDescription: ; 575d1 (15:75d1)
-	text "A strange seed was planted on its"
-	line "back at birth. Thus, a plant"
-	line "sprouted and now grows with this"
-	line "Pokémon."
+ChikoritaDescription: ; 575d1 (15:75d1)
+	text "Its pleasantly aromatic leaves" 
+	line "have the ability to check the"
+	line "humidity and temperature."
 	done
 
 IvysaurName: ; 5763b (15:763b)

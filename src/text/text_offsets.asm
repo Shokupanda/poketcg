@@ -485,8 +485,8 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer CharmanderExtraDeckName                 ; 0x01e1
 	textpointer SquirtleAndFriendsDeckName              ; 0x01e2
 	textpointer SquirtleExtraDeckName                   ; 0x01e3
-	textpointer BulbasaurAndFriendsDeckName             ; 0x01e4
-	textpointer BulbasaurExtraDeckName                  ; 0x01e5
+	textpointer ChikoritaAndFriendsDeckName             ; 0x01e4
+	textpointer ChikoritaExtraDeckName                  ; 0x01e5
 	textpointer FirstStrikeDeckName                     ; 0x01e6
 	textpointer RockCrusherDeckName                     ; 0x01e7
 	textpointer GoGoRainDanceDeckName                   ; 0x01e8
@@ -2059,11 +2059,11 @@ TextOffsets:: ; 34000 (d:4000)
 	textpointer PsychicEnergyDescription                ; 0x0807
 	textpointer DoubleColorlessEnergyName               ; 0x0808
 	textpointer DoubleColorlessEnergyDescription        ; 0x0809
-	textpointer BulbasaurName                           ; 0x080a
+	textpointer ChikoritaName                           ; 0x080a
 	textpointer LeechSeedName                           ; 0x080b
-	textpointer BulbasaursLeechSeedDescription          ; 0x080c
-	textpointer BulbasaurKind                           ; 0x080d
-	textpointer BulbasaurDescription                    ; 0x080e
+	textpointer ChikoritaLeechSeedDescription          	; 0x080c
+	textpointer ChikoritaKind                           ; 0x080d
+	textpointer ChikoritaDescription                    ; 0x080e
 	textpointer IvysaurName                             ; 0x080f
 	textpointer VineWhipName                            ; 0x0810
 	textpointer PoisonPowderName                        ; 0x0811

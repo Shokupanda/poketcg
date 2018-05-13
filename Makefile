@@ -11,7 +11,7 @@ $(foreach obj, $(OBJS), \
 	$(eval $(obj:.o=)_dep = $(shell python $(EXTRAS)/scan_includes.py $(obj:.o=.asm))) \
 )
 
-all: tcg.gbc compare
+all: tcg_neo.gbc
 
 compare: baserom.gbc tcg.gbc
 	cmp $^
@@ -21,7 +21,7 @@ $(OBJS): $$*.asm $$($$*_dep)
 	@python $(EXTRAS)/gfx.py 1bpp $(1bppq)
 	rgbasm -h -i src/ -o $@ $<
 
-tcg.gbc: $(OBJS)
+tcg_neo.gbc: $(OBJS)
 	rgblink -n $*.sym -m $*.map -l $*.link -o $@ $^
 	rgbfix -cjsv -k 01 -l 0x33 -m 0x1b -p 0 -r 03 -t POKECARD -i AXQE $@
 
